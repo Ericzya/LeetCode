@@ -1,4 +1,4 @@
-package a3.LengthOfLongestSubstring;
+package a3.lengthOfLongestSubstring;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +11,7 @@ public class LengthOfLongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
         char[] elements = s.toCharArray();
         int result = 0;
-        int startPos = 0;
+        int startPos;
         for (int i = 0; i < elements.length; i++) {
             startPos = i;
             Set<Character> hashSet = new HashSet<>();

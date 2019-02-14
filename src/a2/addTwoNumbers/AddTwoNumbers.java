@@ -1,4 +1,4 @@
-package a2.add_two_numbers;
+package a2.addTwoNumbers;
 
 /**
  * @author admin
