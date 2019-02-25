@@ -38,7 +38,6 @@ public class AddTwoNumbers {
             resultListNode = resultListNode.next;
         }
     }
-
     /**
      * Definition for singly-linked list.
      */

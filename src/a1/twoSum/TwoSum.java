@@ -37,7 +37,7 @@ public class TwoSum {
      * @return
      */
     public static int[] twoSum_fast(int[] nums, int target) {
-        HashMap<Integer, Integer> tempHashMap = new HashMap<>();
+        HashMap<Integer, Integer> tempHashMap = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
             int key = target - nums[i];
             if (tempHashMap.containsKey(nums[i])) {
