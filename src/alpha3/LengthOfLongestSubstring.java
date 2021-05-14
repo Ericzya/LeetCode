@@ -1,4 +1,4 @@
-package alpha3.lengthOfLongestSubstring;
+package alpha3;
 
 import java.util.HashSet;
 import java.util.Set;

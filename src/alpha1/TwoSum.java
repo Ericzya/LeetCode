@@ -1,4 +1,4 @@
-package alpha1.twoSum;
+package alpha1;
 
 import java.util.HashMap;
 
@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 public class TwoSum {
     public static void main(String[] args) {
-        int[] resultArr = twoSum_fast(new int[]{2, 7, 11, 15}, 9);
+        int[] resultArr = twoSumFast(new int[]{2, 7, 11, 15}, 9);
         for (int a : resultArr) {
             System.out.print(a + "\t");
         }
@@ -36,7 +36,7 @@ public class TwoSum {
      * @param target
      * @return
      */
-    public static int[] twoSum_fast(int[] nums, int target) {
+    public static int[] twoSumFast(int[] nums, int target) {
         HashMap<Integer, Integer> tempHashMap = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
             int key = target - nums[i];

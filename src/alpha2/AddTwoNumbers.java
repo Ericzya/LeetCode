@@ -1,4 +1,4 @@
-package alpha2.addTwoNumbers;
+package alpha2;
 
 /**
  * @author admin
